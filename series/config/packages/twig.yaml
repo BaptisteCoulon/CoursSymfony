@@ -1,0 +1,8 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    #applique le thème à n'importe quel formulaire
+#    form_themes: ['view/form_theme/beautiful.html.twig']
+
+when@test:
+    twig:
+        strict_variables: true
